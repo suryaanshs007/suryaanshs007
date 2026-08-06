@@ -1,16 +1,102 @@
-## Hi there 👋
+<div align="center">
+    <img src="./images/heroSectionASCII.png" width="220" alt="ascii image art">
+</div>
 
-<!--
-**suryaanshs007/suryaanshs007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+<h2>
+  <code>suryaanshs007@github ~ $ ./portfolio.sh</code>
+</h2>
 
-Here are some ideas to get you started:
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=440&lines=Developer+building+and+sharing+work+on+GitHub." alt="typing-svg" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+---
+
+## `> whoami`
+
+```bash
+NAME          = suryaanshs007
+ROLE          = i do not have one, i do absolutely everything.
+FOCUS         = Java | Spring Boot | Linux
+REPOSITORIES  = 10
+CONTRIBUTIONS = 62
+STATUS        = Building | Learning | Shipping
+```
+
+---
+
+## `> ls /tech-stack`
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=py,html,java,lua,js&theme=dark" alt="tech stack icons" />
+</div>
+
+---
+
+## `> ls /projects --sort=impact`
+
+<details open>
+<summary><b>Purple-Rain</b></summary>
+
+My own dotfiles for arch linux (hyprland)! Custom built on a silicon mac, it's beautiful and blazingly fast.
+
+- **Stack:** Lua
+- **Stars:** 1
+- **Repository:** [View on GitHub](https://github.com/suryaanshs007/Purple-Rain)
+</details>
+
+<details>
+<summary><b>odin-recipes</b></summary>
+
+The recipes project from The Odin Project's Web development course.
+
+- **Stack:** HTML
+- **Stars:** 0
+- **Repository:** [View on GitHub](https://github.com/suryaanshs007/odin-recipes)
+</details>
+
+<details>
+<summary><b>cloudIntelligence</b></summary>
+
+tech solstice cloud intelligence software
+
+- **Stack:** Jupyter Notebook
+- **Stars:** 0
+- **Repository:** [View on GitHub](https://github.com/suryaanshs007/cloudIntelligence)
+</details>
+
+<details>
+<summary><b>Java-Transactions-Processor</b></summary>
+
+Java Transactions
+
+- **Stack:** Java
+- **Stars:** 0
+- **Repository:** [View on GitHub](https://github.com/suryaanshs007/Java-Transactions-Processor)
+</details>
+
+---
+
+## `> git stats --global`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=suryaanshs007&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="49%" alt="suryaanshs007 stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=suryaanshs007&theme=github-dark-blue&hide_border=true" width="49%" alt="suryaanshs007 streak stats" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=suryaanshs007&theme=github-compact&hide_border=true" width="100%" alt="suryaanshs007 contribution graph" />
+
+</div>
+
+---
+
+## `> ping me`
+
+<div align="center">
+<a href="https://github.com/suryaanshs007">GitHub</a>
+</div>
+
+---
+
+<p align="center"><sub>suryaanshs007 · Terminal-themed developer README</sub></p>
