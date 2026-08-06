@@ -13,7 +13,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Developer+building+and+sharing+work+on+GitHub." alt="typing-svg" />
 
-<p><sub>First-year CSE undergrad building toward a software engineering career, one shipped project at a time.</sub></p>
+<p><sub>Second-year CSE undergrad building toward a software engineering career, one shipped project at a time.</sub></p>
 
 </div>
 
