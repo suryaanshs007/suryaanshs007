@@ -1,5 +1,8 @@
 <div align="center">
-    <img src="./images/heroSectionASCII.png" width="220" alt="ascii image art">
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="./images/heroSectionASCII-light.png">
+        <img src="./images/heroSectionASCII-dark.png" width="200" alt="ascii image art">
+    </picture>
 </div>
 
 <div align="center">
@@ -7,7 +10,9 @@
   <code>suryaanshs007@github ~ $ ./portfolio.sh</code>
 </h2>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=440&lines=Developer+building+and+sharing+work+on+GitHub." alt="typing-svg" />
+<!--<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=440&lines=Developer+building+and+sharing+work+on+GitHub." alt="typing-svg" />-->
+
+<p><sub>First-year CSE undergrad building toward a software engineering career, one shipped project at a time.</sub></p>
 
 </div>
 
@@ -17,8 +22,8 @@
 
 ```bash
 NAME          = suryaanshs007
-ROLE          = i do not have one, i do absolutely everything.
-FOCUS         = Java | Spring Boot | Linux
+ROLE          = Frontend or full-stack engineer
+FOCUS         = Jupyter Notebook | HTML | Python
 REPOSITORIES  = 10
 CONTRIBUTIONS = 62
 STATUS        = Building | Learning | Shipping
