@@ -23,8 +23,8 @@
 
 ```bash
 NAME          = suryaanshs007
-ROLE          = Frontend or full-stack engineer
-FOCUS         = Jupyter Notebook | HTML | Python
+ROLE          = none, i do not get to decide that
+FOCUS         = SpringBoot | ML | Linux
 REPOSITORIES  = 10
 CONTRIBUTIONS = 62
 STATUS        = Building | Learning | Shipping
@@ -101,6 +101,7 @@ Java Transactions
 
 <div align="center">
 <a href="https://github.com/suryaanshs007">GitHub</a>
+<a href="https://www.linkedin.com/in/suryaansh-s-16455836a/">Linkedin</a>
 </div>
 
 ---
