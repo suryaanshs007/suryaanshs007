@@ -1,15 +1,46 @@
-
-<div align="center">
-    <picture>
-        <source media="(prefers-color-scheme: light)" srcset="./images/heroSectionASCII-light.png">
-        <img src="./images/heroSectionASCII-dark.png" width="200" alt="ascii image art">
-    </picture>
-</div>
-
 <div align="center">
 <h2>
   <code>suryaanshs007@github ~ $ ./portfolio.sh</code>
 </h2>
+</div>
+
+<table align="center">
+<tr><td colspan="2" align="center">
+
+```text
+● ● ●   suryaanshs007@github:~
+```
+
+</td></tr>
+<tr>
+<td width="220" valign="top" align="center">
+
+<picture>
+    <source media="(prefers-color-scheme: light)" srcset="./images/heroSectionASCII-light.png">
+    <img src="./images/heroSectionASCII-dark.png" width="190" alt="ascii image art">
+</picture>
+
+</td>
+<td valign="top">
+
+```text
+suryaanshs007@github
+---------------------------------
+OS        : MacOS X and Arch Linux ARM (UTM)
+Host      : MacBook Air M4
+WM        : Hyprland
+Bar       : Waybar
+Terminal  : foot
+Editor    : Neovim (LazyVim)
+Launcher  : rofi
+Shell     : zsh
+```
+
+</td>
+</tr>
+</table>
+
+<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Developer+building+and+sharing+work+on+GitHub." alt="typing-svg" />
 
@@ -22,7 +53,7 @@
 ## `> whoami`
 
 ```bash
-NAME          = suryaanshs007 
+NAME          = suryaanshs007
 FOCUS         = SpringBoot | ML | Linux
 REPOSITORIES  = 10
 CONTRIBUTIONS = 62
@@ -121,7 +152,7 @@ STACK       = Java
 ## `> ping me`
 
 <div align="center">
-<a href="https://www.linkedin.com/in/suryaansh-s-16455836a/">Linkedin</a>
+<a href="https://www.linkedin.com/in/suryaansh-s-16455836a/">LinkedIn</a>
 </div>
 
 ---
