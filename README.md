@@ -43,43 +43,65 @@ STATUS        = Building | Learning | Shipping
 ## `> ls /projects --sort=impact`
 
 <details open>
-<summary><b>Purple-Rain</b></summary>
+<summary><code>$ cat ./Purple-Rain/README.md</code></summary>
 
-My own dotfiles for arch linux (hyprland)! Custom built on a silicon mac, it's beautiful and blazingly fast.
+```bash
+DESCRIPTION = My own dotfiles for arch linux (hyprland)! Custom built on
+              a silicon mac — beautiful and blazingly fast.
+STACK       = Lua
+```
 
-- **Stack:** Lua
-- **Stars:** 1
-- **Repository:** [View on GitHub](https://github.com/suryaanshs007/Purple-Rain)
+<img src="https://img.shields.io/github/stars/suryaanshs007/Purple-Rain?style=flat-square&label=stars&color=58A6FF&labelColor=161B22" alt="stars" />
+<img src="https://img.shields.io/github/last-commit/suryaanshs007/Purple-Rain?style=flat-square&color=58A6FF&labelColor=161B22" alt="last commit" />
+
+**→** [`View repository`](https://github.com/suryaanshs007/Purple-Rain)
+
 </details>
 
 <details>
-<summary><b>odin-recipes</b></summary>
+<summary><code>$ cat ./odin-recipes/README.md</code></summary>
 
-The recipes project from The Odin Project's Web development course.
+```bash
+DESCRIPTION = The recipes project from The Odin Project's Web
+              development course.
+STACK       = HTML
+```
 
-- **Stack:** HTML
-- **Stars:** 0
-- **Repository:** [View on GitHub](https://github.com/suryaanshs007/odin-recipes)
+<img src="https://img.shields.io/github/stars/suryaanshs007/odin-recipes?style=flat-square&label=stars&color=58A6FF&labelColor=161B22" alt="stars" />
+<img src="https://img.shields.io/github/last-commit/suryaanshs007/odin-recipes?style=flat-square&color=58A6FF&labelColor=161B22" alt="last commit" />
+
+**→** [`View repository`](https://github.com/suryaanshs007/odin-recipes)
+
 </details>
 
 <details>
-<summary><b>cloudIntelligence</b></summary>
+<summary><code>$ cat ./cloudIntelligence/README.md</code></summary>
 
-tech solstice cloud intelligence software
+```bash
+DESCRIPTION = Tech Solstice cloud intelligence software.
+STACK       = Jupyter Notebook
+```
 
-- **Stack:** Jupyter Notebook
-- **Stars:** 0
-- **Repository:** [View on GitHub](https://github.com/suryaanshs007/cloudIntelligence)
+<img src="https://img.shields.io/github/stars/suryaanshs007/cloudIntelligence?style=flat-square&label=stars&color=58A6FF&labelColor=161B22" alt="stars" />
+<img src="https://img.shields.io/github/last-commit/suryaanshs007/cloudIntelligence?style=flat-square&color=58A6FF&labelColor=161B22" alt="last commit" />
+
+**→** [`View repository`](https://github.com/suryaanshs007/cloudIntelligence)
+
 </details>
 
 <details>
-<summary><b>Java-Transactions-Processor</b></summary>
+<summary><code>$ cat ./Java-Transactions-Processor/README.md</code></summary>
 
-Java Transactions
+```bash
+DESCRIPTION = Java transactions processing engine.
+STACK       = Java
+```
 
-- **Stack:** Java
-- **Stars:** 0
-- **Repository:** [View on GitHub](https://github.com/suryaanshs007/Java-Transactions-Processor)
+<img src="https://img.shields.io/github/stars/suryaanshs007/Java-Transactions-Processor?style=flat-square&label=stars&color=58A6FF&labelColor=161B22" alt="stars" />
+<img src="https://img.shields.io/github/last-commit/suryaanshs007/Java-Transactions-Processor?style=flat-square&color=58A6FF&labelColor=161B22" alt="last commit" />
+
+**→** [`View repository`](https://github.com/suryaanshs007/Java-Transactions-Processor)
+
 </details>
 
 ---
