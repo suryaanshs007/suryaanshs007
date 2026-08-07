@@ -22,8 +22,7 @@
 ## `> whoami`
 
 ```bash
-NAME          = suryaanshs007
-ROLE          = none, i just larp till i make it 
+NAME          = suryaanshs007 
 FOCUS         = SpringBoot | ML | Linux
 REPOSITORIES  = 10
 CONTRIBUTIONS = 62
