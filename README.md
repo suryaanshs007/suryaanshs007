@@ -23,7 +23,7 @@
 
 ```bash
 NAME          = suryaanshs007
-ROLE          = none, i do not get to decide that
+ROLE          = none, i just larp till i make it 
 FOCUS         = SpringBoot | ML | Linux
 REPOSITORIES  = 10
 CONTRIBUTIONS = 62
@@ -100,7 +100,6 @@ Java Transactions
 ## `> ping me`
 
 <div align="center">
-<a href="https://github.com/suryaanshs007">GitHub</a>
 <a href="https://www.linkedin.com/in/suryaansh-s-16455836a/">Linkedin</a>
 </div>
 
