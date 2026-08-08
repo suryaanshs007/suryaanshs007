@@ -16,8 +16,8 @@
 <td width="220" valign="top" align="center">
 
 <picture>
-    <source media="(prefers-color-scheme: light)" srcset="/Users/suryaanshs/repos/suryaanshs007/images/heroSectionASCII-light.png">
-    <img src="/Users/suryaanshs/repos/suryaanshs007/images/heroSectionASCII-dark.png" width="190" alt="ascii image art">
+    <source media="(prefers-color-scheme: light)" srcset="./images/heroSectionASCII-light.png">
+    <img src="./images/heroSectionASCII-dark.png" width="190" alt="ascii image art">
 </picture>
 
 </td>
