@@ -4,37 +4,41 @@
 </h2>
 </div>
 
-<div align="center">
+<table align="center">
+<tr><td colspan="2" align="center">
 
 ```text
-╭────────────────────────────────────────────╮
-│   ●  ●  ●    suryaanshs007@github:~          │
-╰────────────────────────────────────────────╯
+● ● ●   suryaanshs007@github:~
 ```
 
-</div>
+</td></tr>
+<tr>
+<td width="220" valign="top" align="center">
 
 <picture>
     <source media="(prefers-color-scheme: light)" srcset="./images/heroSectionASCII-light.png">
-    <img align="left" hspace="20" width="180" src="./images/heroSectionASCII-dark.png" alt="ascii image art">
+    <img src="./images/heroSectionASCII-dark.png" width="190" alt="ascii image art">
 </picture>
 
-<pre>
-<code>suryaanshs007@github:~$ neofetch</code>
+</td>
+<td valign="top">
 
-<b>suryaanshs007@github</b>
+```text
+suryaanshs007@github
 ---------------------------------
-<b>OS</b>        : MacOS X and Arch Linux ARM (UTM)
-<b>Host</b>      : MacBook Air M4
-<b>WM</b>        : Hyprland
-<b>Bar</b>       : Waybar
-<b>Terminal</b>  : foot
-<b>Editor</b>    : Neovim (LazyVim)
-<b>Launcher</b>  : rofi
-<b>Shell</b>     : zsh
-</pre>
+OS        : MacOS X and Arch Linux ARM (UTM)
+Host      : MacBook Air M4
+WM        : Hyprland
+Bar       : Waybar
+Terminal  : foot
+Editor    : Neovim (LazyVim)
+Launcher  : rofi
+Shell     : zsh
+```
 
-<br clear="left"/>
+</td>
+</tr>
+</table>
 
 <div align="center">
 
