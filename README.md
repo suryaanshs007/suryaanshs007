@@ -17,7 +17,7 @@
 
 <picture>
     <source media="(prefers-color-scheme: light)" srcset="./images/heroSectionASCII-light.png">
-    <img src="./images/heroSectionASCII-dark.png" width="190" alt="ascii image art">
+    <img src="./images/heroSectionASCII-dark.png" width="190" height="200" alt="ascii image art">
 </picture>
 
 </td>
