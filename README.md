@@ -8,7 +8,7 @@
 <tr><td colspan="2" align="center">
 
 ```text
-● ● ●   suryaanshs007@github:~
+● ● ●   > suryaanshs007@github:~ neofetch
 ```
 
 </td></tr>
