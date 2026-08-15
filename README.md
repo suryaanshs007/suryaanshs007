@@ -140,7 +140,7 @@ STACK       = Java
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=suryaanshs007&theme=github-dark-blue&hide_border=true" width="49%" alt="suryaanshs007 streak stats" />
+[![GitHub Streak](https://streak-stats.demolab.com?user=suryaanshs007&theme=github-dark-blue&hide_border=true&border_radius=4.8&date_format=M%20j%5B%2C%20Y%5D&exclude_days=Tue%2CFri)](https://git.io/streak-stats)
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=suryaanshs007&theme=github-compact&hide_border=true" width="100%" alt="suryaanshs007 contribution graph" />
 
