@@ -146,6 +146,7 @@ STACK       = Java
 </div>
 -->
 ![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=suryaanshs007&theme=midnight&days=30&width=800&height=400)
+![Top Languages](https://ghstats.dev/api/langs?username=suryaanshs007&theme=ayu)
 
 ---
 
