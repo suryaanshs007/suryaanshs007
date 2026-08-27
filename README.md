@@ -145,11 +145,8 @@ STACK       = Java
 
 </div>
 -->
-<div aligh="centre">
+![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=suryaanshs007&theme=midnight&days=30&width=600&height=200)
 
-<img frameBorder="0" height="185px" width="903px" src="https://git-graph.vercel.app/embed/suryaanshs007?showColorLegend=true&showWeekdayLabels=true&showMonthLabels=true&showTotalCount=true&blockMargin=2&blockRadius=20&blockSize=14&fontSize=14&weekStart=1&year=2026"></img>
-
-</div>
 ---
 
 ## `> ping me`
