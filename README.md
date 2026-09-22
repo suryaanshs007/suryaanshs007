@@ -17,7 +17,7 @@
 
 <picture>
     <source media="(prefers-color-scheme: light)" srcset="./images/heroSectionASCII-light.png">
-    <img src="./images/heroSectionASCII-dark.png" width="190" height="200" alt="ascii image art">
+    <img src="./images/heroSectionASCII-dark.png" width="190" alt="ascii image art">
 </picture>
 
 </td>
@@ -55,10 +55,13 @@ Shell     : zsh
 ```bash
 NAME          = suryaanshs007
 FOCUS         = SpringBoot | ML | Linux
-REPOSITORIES  = 10
-CONTRIBUTIONS = 62
 STATUS        = Building | Learning | Shipping
 ```
+
+<div align="center">
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsuryaanshs007&label=REPOSITORIES&query=%24.public_repos&color=58A6FF&style=flat-square&labelColor=161B22" alt="repositories" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fsuryaanshs007%3Fy%3Dlast&label=CONTRIBUTIONS&query=%24.total.lastYear&color=58A6FF&style=flat-square&labelColor=161B22" alt="contributions" />
+</div>
 
 ---
 
