@@ -13,15 +13,15 @@
 
 </td></tr>
 <tr>
-<td width="220" valign="top" align="center">
+<td width="220" valign="middle" align="center">
 
 <picture>
     <source media="(prefers-color-scheme: light)" srcset="./images/heroSectionASCII-light.png">
-    <img src="./images/heroSectionASCII-dark.png" width="190" alt="ascii image art">
+    <img src="./images/heroSectionASCII-dark.png" width="210" height="191" alt="ascii image art">
 </picture>
 
 </td>
-<td valign="top">
+<td valign="middle">
 
 ```text
 suryaanshs007@github
