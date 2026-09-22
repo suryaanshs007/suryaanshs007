@@ -68,7 +68,7 @@ STATUS        = Building | Learning | Shipping
 ## `> ls /tech-stack`
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,html,java,lua,js&theme=dark" alt="tech stack icons" />
+<img src="https://skillicons.dev/icons?i=py,html,java,lua,js,matlab,spring,postgres,solidity,arch,hyprland&theme=dark" alt="tech stack icons" />
 </div>
 
 ---
