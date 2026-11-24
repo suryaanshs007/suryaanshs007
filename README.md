@@ -1,8 +1,8 @@
 <div align="center">
 
 <img src="./assets/header.svg" width="476" alt="foot terminal running chafa on an ascii portrait of suryaanshs007" />
-<br>
-<sub><a href="https://devault.design/ascii-art-generator/">ascii art</a>, not ai art.</sub>
+
+<p><sub><a href="https://devault.design/ascii-art-generator/">ascii art</a>, not ai art.</sub></p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2600&pause=900&color=8AB4C8&center=true&vCenter=true&width=476&lines=second-year+CSE+undergrad;SpringBoot+%C2%B7+ML+%C2%B7+Linux;ricing+hyprland+on+apple+silicon;shipping+one+project+at+a+time" alt="typing tagline" />
 
