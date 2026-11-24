@@ -7,6 +7,7 @@ inlined as data URIs, so the portrait is downscaled (macOS `sips`) and embedded.
 
     python3 scripts/build_svgs.py
 """
+"""
 import base64
 import subprocess
 import tempfile
@@ -85,7 +86,8 @@ def header():
 
     img = portrait_b64()
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    return f"""
+"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="{MONO}">
 <title>suryaanshs007 — ascii portrait</title>
 <defs>
@@ -160,7 +162,7 @@ def header():
 """
 
 
-def statusbar():
+"""def statusbar():
     """Waybar-style footer: workspace focus hops 1→5, braille spinner on the right."""
     W, H, size = 476, 28, 11
     cw = size * 0.6
@@ -179,7 +181,7 @@ def statusbar():
         f'<text x="{ws_x0 + i * ws_gap + 9}" y="{H / 2 + 4}" text-anchor="middle" fill="{DIM}">{i + 1}</text>'
         for i in range(hops))
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}"
-     font-family="{MONO}" font-size="{size}">
+ """    font-family="{MONO}" font-size="{size}">
 <title>status bar</title>
 <style>
   .hl {{ animation: hop 10s steps(1) infinite; }}
@@ -198,8 +200,8 @@ def statusbar():
 """
 
 
-if __name__ == "__main__":
+""""if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     for name, fn in {"header.svg": header, "statusbar.svg": statusbar}.items():
         (OUT / name).write_text(fn(), encoding="utf-8")
-        print(f"wrote assets/{name} ({(OUT / name).stat().st_size // 1024} KB)")
+        print(f"wrote assets/{name} ({(OUT / name).stat().st_size // 1024} KB)")"""
