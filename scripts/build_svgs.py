@@ -7,7 +7,6 @@ inlined as data URIs, so the portrait is downscaled (macOS `sips`) and embedded.
 
     python3 scripts/build_svgs.py
 """
-"""
 import base64
 import subprocess
 import tempfile
@@ -86,8 +85,7 @@ def header():
 
     img = portrait_b64()
 
-    return f"""
-"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="{MONO}">
 <title>suryaanshs007 — ascii portrait</title>
 <defs>
@@ -98,40 +96,18 @@ def header():
     <animateTransform attributeName="gradientTransform" type="rotate"
       from="0 {W / 2} {H / 2}" to="360 {W / 2} {H / 2}" dur="8s" repeatCount="indefinite"/>
   </linearGradient>
-  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#cfeaf5" stop-opacity="0"/>
-    <stop offset=".5" stop-color="#cfeaf5" stop-opacity=".16"/>
-    <stop offset="1" stop-color="#cfeaf5" stop-opacity="0"/>
-  </linearGradient>
   <image id="me" x="{ix}" y="{iy}" width="{IW}" height="{IH}" preserveAspectRatio="xMidYMid slice"
          xlink:href="data:image/jpeg;base64,{img}"/>
   <clipPath id="frame"><rect x="{ix}" y="{iy}" width="{IW}" height="{IH}" rx="3"/></clipPath>
   <clipPath id="reveal"><rect x="{ix}" y="{iy}" width="{IW}" height="0">
     <animate attributeName="height" values="{reveal}" calcMode="discrete"
              begin="{r_begin:.2f}s" dur="{r_dur}s" fill="freeze"/></rect></clipPath>
-  <clipPath id="g1"><rect x="{ix}" y="{iy + IH * .31:.0f}" width="{IW}" height="6"/></clipPath>
-  <clipPath id="g2"><rect x="{ix}" y="{iy + IH * .58:.0f}" width="{IW}" height="4"/></clipPath>
-  <clipPath id="g3"><rect x="{ix}" y="{iy + IH * .74:.0f}" width="{IW}" height="9"/></clipPath>
 </defs>
 <style>
-  .scan {{ animation: scan 6s linear {done:.2f}s infinite; transform: translateY(-60px); }}
-  @keyframes scan {{ to {{ transform: translateY({IH + 60}px); }} }}
-  .gl {{ animation: gl 7s steps(1) {done + 1:.2f}s infinite; }}
-  .gl.b {{ animation-duration: 9.5s; animation-delay: {done + 3.2:.2f}s; }}
-  .gl.c {{ animation-duration: 11s; animation-delay: {done + 5.1:.2f}s; }}
-  @keyframes gl {{
-    0%, 90%, 100% {{ transform: translateX(0); }}
-    91% {{ transform: translateX(-6px); }}
-    92% {{ transform: translateX(4px); }}
-    93% {{ transform: translateX(-2px); }}
-  }}
   .cur {{ opacity: 0; animation: blink 1.05s steps(1) {done:.2f}s infinite; }}
   .after {{ opacity: 0; animation: show .01s {done:.2f}s forwards; }}
   @keyframes blink {{ 0% {{ opacity: 1; }} 50% {{ opacity: 0; }} }}
   @keyframes show {{ to {{ opacity: 1; }} }}
-  @media (prefers-reduced-motion: reduce) {{
-    .scan, .gl {{ animation: none; }}
-  }}
 </style>
 
 <rect x="1.5" y="1.5" width="{W - 3}" height="{H - 3}" rx="10" fill="{BG}"
@@ -146,12 +122,6 @@ def header():
 
 <g clip-path="url(#reveal)">
   <use xlink:href="#me" clip-path="url(#frame)"/>
-  <g clip-path="url(#frame)">
-    <g clip-path="url(#g1)"><use class="gl" xlink:href="#me"/></g>
-    <g clip-path="url(#g2)"><use class="gl b" xlink:href="#me"/></g>
-    <g clip-path="url(#g3)"><use class="gl c" xlink:href="#me"/></g>
-    <rect class="scan" x="{ix}" y="{iy}" width="{IW}" height="60" fill="url(#scan)"/>
-  </g>
 </g>
 
 <g class="after">
@@ -162,7 +132,7 @@ def header():
 """
 
 
-"""def statusbar():
+def statusbar():
     """Waybar-style footer: workspace focus hops 1→5, braille spinner on the right."""
     W, H, size = 476, 28, 11
     cw = size * 0.6
@@ -181,7 +151,7 @@ def header():
         f'<text x="{ws_x0 + i * ws_gap + 9}" y="{H / 2 + 4}" text-anchor="middle" fill="{DIM}">{i + 1}</text>'
         for i in range(hops))
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}"
- """    font-family="{MONO}" font-size="{size}">
+     font-family="{MONO}" font-size="{size}">
 <title>status bar</title>
 <style>
   .hl {{ animation: hop 10s steps(1) infinite; }}
@@ -200,8 +170,8 @@ def header():
 """
 
 
-""""if __name__ == "__main__":
+if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     for name, fn in {"header.svg": header, "statusbar.svg": statusbar}.items():
         (OUT / name).write_text(fn(), encoding="utf-8")
-        print(f"wrote assets/{name} ({(OUT / name).stat().st_size // 1024} KB)")"""
+        print(f"wrote assets/{name} ({(OUT / name).stat().st_size // 1024} KB)")
