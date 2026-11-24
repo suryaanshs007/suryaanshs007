@@ -31,8 +31,8 @@ Shell     zsh
 </table>
 
 <div align="center">
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsuryaanshs007&label=repos&query=%24.public_repos&color=8AB4C8&style=flat-square&labelColor=11171F" alt="repositories" />
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fsuryaanshs007%3Fy%3Dlast&label=contributions&query=%24.total.lastYear&color=A58BD6&style=flat-square&labelColor=11171F" alt="contributions" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsuryaanshs007&label=repos&query=%24.public_repos&color=8AB4C8&style=flat-square&labelColor=11171F&cacheSeconds=86400" alt="repositories" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fsuryaanshs007%3Fy%3Dlast&label=contributions&query=%24.total.lastYear&color=A58BD6&style=flat-square&labelColor=11171F&cacheSeconds=86400" alt="contributions" />
 </div>
 
 ### `~ ❯ ls ~/stack`
@@ -97,8 +97,9 @@ The recipes project from The Odin Project's web development course.
 ### `~ ❯ git log --graph --all`
 
 <div align="center">
-<img src="https://ghstats.dev/api/sparkline?username=suryaanshs007&theme=midnight&days=30&width=800&height=200" width="100%" alt="contribution sparkline, last 30 days" />
-<img src="https://ghstats.dev/api/langs?username=suryaanshs007&theme=ayu" width="49%" alt="top languages" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=suryaanshs007&bg_color=0b0f14&color=8ab4c8&line=a58bd6&point=c9d6df&area=true&area_color=a58bd6&title_color=c9d6df&hide_border=true&radius=8&height=260&custom_title=commits%20%C2%B7%20last%2031%20days" width="100%" alt="contribution graph, last 31 days" />
+<img src="https://github-readme-stats.vercel.app/api?username=suryaanshs007&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&icon_color=a58bd6&bg_color=0b0f14&title_color=c9d6df&text_color=8ab4c8&hide_border=true&border_radius=8&custom_title=git%20stats&cache_seconds=21600" height="165" alt="github stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suryaanshs007&layout=compact&langs_count=6&bg_color=0b0f14&title_color=c9d6df&text_color=8ab4c8&hide_border=true&border_radius=8&custom_title=languages&cache_seconds=21600" height="165" alt="top languages" />
 </div>
 
 ### `~ ❯ ping suryaanshs007`
